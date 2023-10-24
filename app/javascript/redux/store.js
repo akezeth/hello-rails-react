@@ -4,7 +4,6 @@ import messagesreducer from './greetings/greetingsSlice';
 const store = configureStore({
      reducer: {
           messageList: messagesreducer,
-
      },
 });
 
